@@ -15,7 +15,7 @@ from dash_emulator_quic.player_factory import build_dash_player_over_quic
 
 log = logging.getLogger(__name__)
 
-PLAYER_TARGET = "target"
+PLAYER_TARGET = "--target"
 
 
 def create_parser():
